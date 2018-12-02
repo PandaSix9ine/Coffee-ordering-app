@@ -1,0 +1,7 @@
+String name=t1.getText();
+        String qty=s1.getValue().toString();
+      int qtyy =Integer.valueOf(qty);
+               
+        int amt=qtyy*2;
+        t2.setText("Your Bill is $"+amt);
+        t3.setText("Thanks for shopping "+name);
